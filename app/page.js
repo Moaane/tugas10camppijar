@@ -59,7 +59,7 @@ export default function Home() {
           }}
         />
       )}
-      <div className="w-screen flex justify-end">
+      <div className="w-full flex justify-end">
         <button
           onClick={() => setIsCreateModalOpen(true)}
           type="button"
